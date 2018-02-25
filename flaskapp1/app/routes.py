@@ -10,6 +10,10 @@ def home():
     """ Go to Home Page """
     return render_template('home.html') 
 
+@app.route('/about')       
+def about():
+   """ About Us Page """
+   return render_template('about.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
