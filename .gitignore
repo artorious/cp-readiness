@@ -28,3 +28,9 @@ htmlcov/
 .coverage
 .coverage.*
 *,cover
+
+# Virtual env files
+flaskapp1/bin/
+flaskapp1/include/
+flaskapp1/lib/
+flaskapp1/pip-selfcheck.json
